@@ -104,7 +104,7 @@ const Hero = () => {
             );
             const data = await response.json();
             if (data && data.display_name) {
-              // Extract a shorter address
+              // Extract a shorter address.
               const address =
                 data.display_name.split(",").slice(0, 3).join(", ") ||
                 data.display_name;
