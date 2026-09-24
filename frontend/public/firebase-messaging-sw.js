@@ -1,36 +1,42 @@
 importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js');
 importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js');
 
+// Parse Firebase configuration passed from service worker registration URL query params
+const params = new URLSearchParams(self.location.search);
 const firebaseConfig = {
-    apiKey: "AIzaSyDz0wFzEvRPGbYUEYgYqDPh_F5uuGgV4Rg",
-    authDomain: "junker-74fb0.firebaseapp.com",
-    projectId: "junker-74fb0",
-    storageBucket: "junker-74fb0.firebasestorage.app",
-    messagingSenderId: "578064058636",
-    appId: "1:578064058636:web:5d6184847ab9cc8187a129",
-    measurementId: "G-ZN7PKL5TMB"
+    apiKey: params.get('apiKey'),
+    authDomain: params.get('authDomain'),
+    projectId: params.get('projectId'),
+    storageBucket: params.get('storageBucket'),
+    messagingSenderId: params.get('messagingSenderId'),
+    appId: params.get('appId'),
+    measurementId: params.get('measurementId')
 };
 
-firebase.initializeApp(firebaseConfig);
+if (firebaseConfig.apiKey && firebaseConfig.projectId) {
+    firebase.initializeApp(firebaseConfig);
+}
 
-const messaging = firebase.messaging();
+const messaging = firebase.messaging ? firebase.messaging() : null;
 
 // Background message handler (when browser tab is NOT focused)
-messaging.onBackgroundMessage((payload) => {
-    console.log('[firebase-messaging-sw.js] Background message received', payload);
+if (messaging) {
+    messaging.onBackgroundMessage((payload) => {
+        console.log('[firebase-messaging-sw.js] Background message received', payload);
 
-    const notificationTitle = payload.notification?.title || 'Junkar';
-    const notificationOptions = {
-        body: payload.notification?.body || '',
-        icon: '/favicon.png',
-        badge: '/favicon.png',
-        data: { ...payload.data, link: '/scrapper/request-list' },
-        tag: 'new-order-' + (payload.data?.orderId || Date.now()),
-        requireInteraction: true,   // Keep notification on screen until user clicks
-    };
+        const notificationTitle = payload.notification?.title || 'Junkar';
+        const notificationOptions = {
+            body: payload.notification?.body || '',
+            icon: '/favicon.png',
+            badge: '/favicon.png',
+            data: { ...payload.data, link: '/scrapper/request-list' },
+            tag: 'new-order-' + (payload.data?.orderId || Date.now()),
+            requireInteraction: true,   // Keep notification on screen until user clicks
+        };
 
-    self.registration.showNotification(notificationTitle, notificationOptions);
-});
+        self.registration.showNotification(notificationTitle, notificationOptions);
+    });
+}
 
 // Handle notification click
 self.addEventListener('notificationclick', (event) => {

@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 dotenv.config({ path: join(__dirname, '.env') });
 
 async function check() {
-    const uri = process.env.MONGODB_URI || 'mongodb+srv://bhatiabhishek597_db_user:bhatiabhishek597_db_user@cluster0.dee9aem.mongodb.net/junkar';
+    const uri = process.env.MONGODB_URI;
     try {
         await mongoose.connect(uri);
         const admin = mongoose.connection.db.admin();
