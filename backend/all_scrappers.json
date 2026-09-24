@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Abhishek Bhati",
+    "phone": "7777777777",
+    "scrapperType": "small",
+    "isOnline": true,
+    "kycStatus": "verified",
+    "coords": [
+      0,
+      0
+    ]
+  },
+  {
+    "name": "chandan",
+    "phone": "8888888888",
+    "scrapperType": "big",
+    "isOnline": true,
+    "kycStatus": "verified"
+  },
+  {
+    "name": "binod",
+    "phone": "6666666666",
+    "scrapperType": "big",
+    "isOnline": false,
+    "kycStatus": "pending",
+    "coords": [
+      75.80800087334595,
+      22.634349110916887
+    ]
+  },
+  {
+    "name": "ujjwal",
+    "phone": "9876543210",
+    "scrapperType": "big",
+    "isOnline": true,
+    "kycStatus": "verified",
+    "coords": [
+      75.86830739999999,
+      22.7169967
+    ]
+  }
+]

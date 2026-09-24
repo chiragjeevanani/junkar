@@ -1,0 +1,22 @@
+[
+  {
+    "name": "sagar",
+    "phone": "9999900002",
+    "scrapperType": "dukandaar",
+    "kyc": {
+      "aadhaarPhotoUrl": null,
+      "selfieUrl": null,
+      "licenseUrl": null,
+      "panPhotoUrl": null,
+      "shopLicenseUrl": null,
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "verifiedBy": null,
+      "rejectionReason": null
+    }
+  }
+]

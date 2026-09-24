@@ -1,0 +1,11 @@
+MongoDB Connected: ac-ncaszoe-shard-00-01.rpswwp6.mongodb.net
+
+--- Searching for Tickets ---
+Found User: Abhishek Bhati | Phone: 6260491554 | Role: user | ID: 69b143e921757f873739defd
+Found User: sagar | Phone: 7777777777 | Role: scrapper | ID: 69b1444721757f873739df3f
+
+??? No tickets found in Database for these test numbers.
+This is expected if no tickets were submitted via the NEW API-based system yet.
+
+--- Admin Retrieval Logic Check ---
+Total tickets in system: 0

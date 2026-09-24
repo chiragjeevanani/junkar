@@ -1,0 +1,359 @@
+[
+  {
+    "id": "699afdc4c221f9b75fbe31e6",
+    "name": "binod",
+    "phone": "6666666666",
+    "kycStatus": "pending",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771765309/scrapto/kyc/aadhaar/file_bjrl9w.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771765310/scrapto/kyc/selfie/file_g0gsju.jpg"
+    }
+  },
+  {
+    "id": "699f1b25d14743ca68026074",
+    "name": "Abhi bhati",
+    "phone": "6268455382",
+    "kycStatus": "pending",
+    "hasAadhaarFront": false,
+    "hasAadhaarBack": false,
+    "hasSelfie": false,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": null,
+      "selfie": null
+    }
+  },
+  {
+    "id": "699fe4af18d5446840e61cc2",
+    "name": "sagar",
+    "phone": "9999900002",
+    "kycStatus": "pending",
+    "hasAadhaarFront": false,
+    "hasAadhaarBack": false,
+    "hasSelfie": false,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": null,
+      "selfie": null
+    }
+  },
+  {
+    "id": "699fe95218d5446840e62442",
+    "name": "abhi",
+    "phone": "9000000002",
+    "kycStatus": "pending",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772087774/scrapto/kyc/aadhaar/file_dli2cl.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772087775/scrapto/kyc/selfie/file_mqyocw.jpg"
+    }
+  },
+  {
+    "id": "69aa766a259e5aa35da09b79",
+    "name": "Ankit",
+    "phone": "9755620416",
+    "kycStatus": "pending",
+    "hasAadhaarFront": false,
+    "hasAadhaarBack": false,
+    "hasSelfie": false,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": null,
+      "selfie": null
+    }
+  },
+  {
+    "id": "69aa770e259e5aa35da09d69",
+    "name": "Ankit Kumar",
+    "phone": "9755620716",
+    "kycStatus": "pending",
+    "hasAadhaarFront": false,
+    "hasAadhaarBack": false,
+    "hasSelfie": false,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": null,
+      "selfie": null
+    }
+  },
+  {
+    "id": "69afbec5b783387e4dd6d4b7",
+    "name": "3578",
+    "phone": "9179160169",
+    "kycStatus": "pending",
+    "hasAadhaarFront": false,
+    "hasAadhaarBack": false,
+    "hasSelfie": false,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": null,
+      "selfie": null
+    }
+  },
+  {
+    "id": "6992c31c5387a9bcb3e35ae2",
+    "name": "Abhishek Bhati",
+    "phone": "7777777777",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771225921/scrapto/kyc/aadhaar/file_vjjygq.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771225923/scrapto/kyc/selfie/file_ebdwke.jpg"
+    }
+  },
+  {
+    "id": "6992cb58ec8c5489e765f135",
+    "name": "chandan",
+    "phone": "8888888888",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771228202/scrapto/kyc/aadhaar/file_tpxeem.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771228204/scrapto/kyc/selfie/file_bdrsha.jpg"
+    }
+  },
+  {
+    "id": "699b05cac8e5b7c3157d6372",
+    "name": "ujjwal",
+    "phone": "9876543210",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771767321/scrapto/kyc/aadhaar/file_vlb2d6.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771767323/scrapto/kyc/selfie/file_jacb73.jpg"
+    }
+  },
+  {
+    "id": "699fd72215d4ec868724dc9b",
+    "name": "mayur",
+    "phone": "9000000001",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772083123/scrapto/kyc/aadhaar/file_h50s7d.png",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772083126/scrapto/kyc/selfie/file_skqlps.jpg"
+    }
+  },
+  {
+    "id": "69a581d52612549633a4b359",
+    "name": "chandan",
+    "phone": "9000000003",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772502963/scrapto/kyc/aadhaar/file_k7ppc7.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772502966/scrapto/kyc/selfie/file_uo4wun.jpg"
+    }
+  },
+  {
+    "id": "69a643a2a412c0e70db38b1a",
+    "name": "nitesh",
+    "phone": "9000000004",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": true,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504502/scrapto/kyc/aadhaar/file_e0fll4.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504505/scrapto/kyc/selfie/file_tlfijn.jpg"
+    }
+  },
+  {
+    "id": "69a64944640e877a709918ed",
+    "name": "deepesh",
+    "phone": "9000000005",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": true,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505473/scrapto/kyc/aadhaar/file_lzvhi4.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505475/scrapto/kyc/selfie/file_baberj.jpg"
+    }
+  },
+  {
+    "id": "69a68983fa7d5228858b28ef",
+    "name": "yash",
+    "phone": "9111111111",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": true,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521939/scrapto/kyc/aadhaar/file_hbnnrp.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521942/scrapto/kyc/selfie/file_gzbdbt.jpg"
+    }
+  },
+  {
+    "id": "69a6d1e666d89e1a2c567dd8",
+    "name": "sheel",
+    "phone": "9000000006",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": true,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772540699/scrapto/kyc/aadhaar/file_moskbv.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772540701/scrapto/kyc/selfie/file_q46xha.jpg"
+    }
+  },
+  {
+    "id": "69aa9bd8e100df768b36ec2b",
+    "name": "samay",
+    "phone": "9000000009",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772792485/scrapto/kyc/aadhaar/file_r2wivr.png",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772792489/scrapto/kyc/selfie/file_lzaiik.png"
+    }
+  },
+  {
+    "id": "69afc03bb783387e4dd6d4c8",
+    "name": "Ram",
+    "phone": "9109599487",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": true,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126356/scrapto/kyc/aadhaar/file_ecobsy.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126358/scrapto/kyc/selfie/file_hnwgfq.jpg"
+    }
+  },
+  {
+    "id": "69afda52b783387e4dd6da1d",
+    "name": "Shyam",
+    "phone": "7047716600",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": true,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773132642/scrapto/kyc/aadhaar/file_besd3q.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773132643/scrapto/kyc/selfie/file_mbk06x.jpg"
+    }
+  },
+  {
+    "id": "69b403489f1f02cf2e7e8914",
+    "name": "Default Scrapper",
+    "phone": "7000000000",
+    "kycStatus": "verified",
+    "hasAadhaarFront": true,
+    "hasAadhaarBack": false,
+    "hasSelfie": true,
+    "hasPan": true,
+    "hasShopLicense": true,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": "https://res.cloudinary.com/dk8peecsb/image/upload/v1775333426/scrapto/kyc/aadhaar/file_goas5b.jpg",
+      "selfie": "https://res.cloudinary.com/dk8peecsb/image/upload/v1775333426/scrapto/kyc/selfie/file_sjsgxl.jpg"
+    }
+  },
+  {
+    "id": "69b4129de72695b01cc2a49f",
+    "name": "Scrapper 9000000000",
+    "phone": "9000000000",
+    "kycStatus": "verified",
+    "hasAadhaarFront": false,
+    "hasAadhaarBack": false,
+    "hasSelfie": false,
+    "hasPan": false,
+    "hasShopLicense": false,
+    "hasShopPhoto": false,
+    "hasGst": false,
+    "urls": {
+      "aadhaarFront": null,
+      "selfie": null
+    }
+  }
+]

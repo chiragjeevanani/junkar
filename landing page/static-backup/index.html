@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junkar | Sell Scrap Online - Modern Recycling Marketplace</title>
+    <meta name="description" content="Turn your trash into cash with Junkar. Sell scrap materials like plastic, metal, and electronics at real-time market prices with doorstep pickup.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="logo.png" alt="Junkar Logo" class="logo-img">
+                <span class="logo-text">Junkar</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#categories">Categories</a>
+                <a href="#pricing">Live Prices</a>
+                <a href="#app">App</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <div class="lang-selector">
+                    <i data-lucide="languages"></i>
+                    <span>English</span>
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <button class="btn btn-outline">Login</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+            <button class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="badge">Sustainability Driven</span>
+                    <h1>Turn Your Trash <br>into <span class="highlight">Cash!</span></h1>
+                    <p>Sell your scrap materials easily with real-time market rates and verified doorstep pickup. Join the green revolution today.</p>
+                    <div class="hero-btns">
+                        <button class="btn btn-primary btn-large">
+                            <i data-lucide="truck"></i>
+                            Request Pickup
+                        </button>
+                        <button class="btn btn-secondary btn-large">
+                            <i data-lucide="download"></i>
+                            Download App
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">50k+</span>
+                            <span class="stat-label">Happy Users</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">200t</span>
+                            <span class="stat-label">Recycled</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="junkar_hero_bg.png" alt="Eco-friendly Recycling" class="main-hero-img">
+                        <div class="floating-card p-card">
+                            <div class="p-icon"><i data-lucide="trending-up"></i></div>
+                            <div>
+                                <span class="p-label">Copper Price</span>
+                                <span class="p-value">₹550/kg</span>
+                            </div>
+                        </div>
+                        <div class="floating-card d-card">
+                            <div class="p-icon"><i data-lucide="check-circle"></i></div>
+                            <div>
+                                <span class="p-label">Pickup Scheduled</span>
+                                <span class="p-value">Today, 2 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bg-accent"></div>
+        </section>
+
+        <!-- Scrap Categories Section -->
+        <section id="categories" class="categories section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Scrap Categories</h2>
+                    <p>What are you looking to recycle today?</p>
+                </div>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="package"></i></div>
+                        <h3>Plastic</h3>
+                        <p>PET bottles, HDPE containers, LDPE films</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="anvil"></i></div>
+                        <h3>Metal</h3>
+                        <p>Iron rods, tin cans, engine parts</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="file-text"></i></div>
+                        <h3>Paper</h3>
+                        <p>Newspapers, cardboard boxes, magazines</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="cpu"></i></div>
+                        <h3>Electronics</h3>
+                        <p>PCBs, mobile phones, chargers</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="zap"></i></div>
+                        <h3>Copper</h3>
+                        <p>Electrical wires, pipes, utensils</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="component"></i></div>
+                        <h3>Aluminium</h3>
+                        <p>Soda cans, window frames, foil</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="layers"></i></div>
+                        <h3>Steel</h3>
+                        <p>Kitchenware, industrial scrap</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="icon-box glass"><i data-lucide="gem"></i></div>
+                        <h3>Brass</h3>
+                        <p>Fittings, valves, ornaments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Market Prices Section -->
+        <section id="pricing" class="pricing section-padding">
+            <div class="container">
+                <div class="pricing-banner glass">
+                    <div class="banner-content">
+                        <span class="live-indicator"><span class="dot"></span> Live Market Rates</span>
+                        <h2>Transparent Pricing</h2>
+                        <p>We provide the best market rates based on daily fluctuations.</p>
+                    </div>
+                    <div class="price-cards">
+                        <div class="price-card">
+                            <span class="label">Plastic</span>
+                            <span class="value">₹55/kg</span>
+                            <span class="trend up"><i data-lucide="arrow-up-right"></i> 2%</span>
+                        </div>
+                        <div class="price-card">
+                            <span class="label">Metal</span>
+                            <span class="value">₹60/kg</span>
+                            <span class="trend down"><i data-lucide="arrow-down-right"></i> 1%</span>
+                        </div>
+                        <div class="price-card">
+                            <span class="label">Paper</span>
+                            <span class="value">₹20/kg</span>
+                            <span class="trend stable">--</span>
+                        </div>
+                        <div class="price-card accent">
+                            <span class="label">Copper</span>
+                            <span class="value">₹550/kg</span>
+                            <span class="trend up"><i data-lucide="arrow-up-right"></i> 5%</span>
+                        </div>
+                        <div class="price-card">
+                            <span class="label">Electronics</span>
+                            <span class="value">₹100/kg</span>
+                            <span class="trend stable">--</span>
+                        </div>
+                        <div class="price-card">
+                            <span class="label">Aluminium</span>
+                            <span class="value">₹180/kg</span>
+                            <span class="trend up"><i data-lucide="arrow-up-right"></i> 3%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Simple & Efficient</h2>
+                    <p>How Junkar works for you</p>
+                </div>
+                <div class="steps-grid">
+                    <div class="step-item">
+                        <div class="step-num">01</div>
+                        <div class="step-icon glass"><i data-lucide="list-checks"></i></div>
+                        <h3>Select Scrap</h3>
+                        <p>Choose the categories of scrap you want to sell.</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-num">02</div>
+                        <div class="step-icon glass"><i data-lucide="calendar"></i></div>
+                        <h3>Schedule</h3>
+                        <p>Pick a convenient time for doorstep pickup.</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-num">03</div>
+                        <div class="step-icon glass"><i data-lucide="truck"></i></div>
+                        <h3>Collection</h3>
+                        <p>Our verified scrapper collects the material.</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-num">04</div>
+                        <div class="step-icon glass"><i data-lucide="banknote"></i></div>
+                        <h3>Get Paid</h3>
+                        <p>Receive instant payments securely on the spot.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Junkar Section -->
+        <section class="why-choose section-padding">
+            <div class="container grid-2">
+                <div class="image-side">
+                    <img src="junkar_app_usage.png" alt="Happy User" class="about-img">
+                </div>
+                <div class="text-side">
+                    <div class="section-header left">
+                        <h2>Why Choose Junkar?</h2>
+                        <p>Building a cleaner future, one pickup at a time.</p>
+                    </div>
+                    <div class="benefits-list">
+                        <div class="benefit-card glass">
+                            <div class="b-icon"><i data-lucide="check"></i></div>
+                            <div>
+                                <h3>Free Pickup</h3>
+                                <p>No hidden charges for pickups at your location.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-card glass">
+                            <div class="b-icon"><i data-lucide="shield-check"></i></div>
+                            <div>
+                                <h3>Verified Scrappers</h3>
+                                <p>All collectors are background verified for your safety.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-card glass">
+                            <div class="b-icon"><i data-lucide="wallet"></i></div>
+                            <div>
+                                <h3>Cash on Pickup</h3>
+                                <p>Instant digital or cash payments as per your preference.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container text-center">
+                <div class="glass-box">
+                    <h2>Our Mission</h2>
+                    <p class="mission-text">
+                        Junkar is a digital platform that connects households with verified scrap collectors. The goal is to make recycling easy, transparent, and profitable while helping the environment. We believe that what is "junk" to one can be a resource for another, and our mission is to facilitate that transition seamlessly.
+                    </p>
+                    <button class="btn btn-outline btn-large">Learn More About Sustainability</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile App Section -->
+        <section id="app" class="app-section section-padding">
+            <div class="container grid-2 align-center">
+                <div class="app-text">
+                    <h2>Download the Junkar App</h2>
+                    <p>Track live prices, schedule recurring pickups, and manage your earnings all in one place. Your digital companion for a cleaner tomorrow.</p>
+                    <div class="app-buttons">
+                        <a href="#" class="store-btn">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store">
+                        </a>
+                        <a href="#" class="store-btn">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="app-mockup">
+                    <div class="phone-frame">
+                        <img src="app_screenshot.png" alt="Junkar App UI" class="screen-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Users Say</h2>
+                    <p>Hear from people who have turned their trash into cash.</p>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card glass">
+                        <div class="stars">★★★★★</div>
+                        <p>"Junkar made it so easy to get rid of old electronics. The pickup was on time and I got paid instantly!"</p>
+                        <div class="user">
+                            <div class="avatar">A</div>
+                            <div>
+                                <h4>Anjali Sharma</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass">
+                        <div class="stars">★★★★★</div>
+                        <p>"Transparent pricing is what I like most. No more bargaining with local scrappers. Very professional service."</p>
+                        <div class="user">
+                            <div class="avatar">R</div>
+                            <div>
+                                <h4>Rahul Verma</h4>
+                                <span>Shop Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass">
+                        <div class="stars">★★★★★</div>
+                        <p>"A great initiative for the environment. Easy to use app and reliable staff. Highly recommended!"</p>
+                        <div class="user">
+                            <div class="avatar">S</div>
+                            <div>
+                                <h4>Sneha Kapoor</h4>
+                                <span>Environmentalist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container grid-2">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions? We're here to help you start your recycling journey.</p>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <span>Phone</span>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <span>Email</span>
+                                <p>hello@junkar.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <span>Office</span>
+                                <p>Eco Hub, Sector 5, Bangalore, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container glass">
+                        <!-- Placeholder for Google Map -->
+                        <div class="map-placeholder">
+                            <i data-lucide="map"></i>
+                            <span>Interactive Map Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form glass">
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="5" placeholder="How can we help?"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">Junkar</span>
+                    </div>
+                    <p>Making recycling transparent, easy, and rewarding for everyone.</p>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                        <a href="#"><i data-lucide="facebook"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#pricing">Market Prices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button class="btn btn-primary">Join</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Junkar Technologies. All rights reserved. Made with ❤️ for the Planet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

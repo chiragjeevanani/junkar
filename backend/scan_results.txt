@@ -1,0 +1,23 @@
+
+Scanning DB: junkar
+  Collection users: Found 1 matches
+  Matches in junkar.users: [
+  {
+    "name": "sagar",
+    "phone": "9999900002",
+    "db": "junkar"
+  }
+]
+  Collection scrappers: Found 1 matches
+  Matches in junkar.scrappers: [
+  {
+    "name": "sagar",
+    "phone": "9999900002",
+    "kycStatus": "pending",
+    "db": "junkar"
+  }
+]
+
+Scanning DB: test
+  Collection scrappers: Found 0 matches
+  Collection users: Found 0 matches

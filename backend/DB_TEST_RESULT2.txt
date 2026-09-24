@@ -1,0 +1,7 @@
+Connected to DB
+Scrapper: {"id":"69d2679f5ff997ca1b6530dc","type":"feri_wala","services":["scrap_pickup"]}
+Match without distance: 2
+Match without orderType filter: 2
+Match exact from controller: 2
+First matching order in exact controller: 69d0e2fa90ff03a065989d4b
+User Order: {"id":"69d268655ff997ca1b653351","status":"pending","assign":"unassigned","qType":"small","fwd":null}

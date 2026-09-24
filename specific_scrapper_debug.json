@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "699fe4af18d5446840e61cc2",
+    "phone": "9999900002",
+    "name": "sagar",
+    "email": "sagar@gmail.com",
+    "profilePic": null,
+    "services": [
+      "scrap_pickup"
+    ],
+    "scrapperType": "dukandaar",
+    "dealCategories": [],
+    "vehicleInfo": {
+      "type": "bike",
+      "number": "NA",
+      "capacity": 0,
+      "photoUrl": null
+    },
+    "kyc": {
+      "aadhaarPhotoUrl": null,
+      "selfieUrl": null,
+      "licenseUrl": null,
+      "panPhotoUrl": null,
+      "shopLicenseUrl": null,
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "verifiedBy": null,
+      "rejectionReason": null
+    },
+    "subscription": {
+      "status": "expired",
+      "planId": null,
+      "startDate": null,
+      "expiryDate": null,
+      "razorpaySubscriptionId": null,
+      "razorpayPaymentId": null,
+      "autoRenew": true,
+      "cancelledAt": null,
+      "cancellationReason": null
+    },
+    "marketSubscription": {
+      "status": "expired",
+      "planId": null,
+      "startDate": null,
+      "expiryDate": null,
+      "razorpaySubscriptionId": null,
+      "razorpayPaymentId": null,
+      "autoRenew": true,
+      "cancelledAt": null,
+      "cancellationReason": null
+    },
+    "liveLocation": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ],
+      "updatedAt": null
+    },
+    "businessLocation": {
+      "type": "Point",
+      "coordinates": [
+        77.412615,
+        23.2599333
+      ],
+      "address": "Bhopal, Madhya Pradesh, India"
+    },
+    "isOnline": false,
+    "rating": {
+      "breakdown": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average": 0,
+      "count": 0,
+      "lastUpdated": null
+    },
+    "totalPickups": 0,
+    "earnings": {
+      "total": 0,
+      "pending": 0,
+      "withdrawn": 0
+    },
+    "wallet": {
+      "balance": 0,
+      "currency": "INR",
+      "status": "ACTIVE"
+    },
+    "referredBy": null,
+    "status": "active",
+    "isPhoneVerified": false,
+    "fcmTokens": [],
+    "fcmTokenMobile": [],
+    "availableSlots": [],
+    "createdAt": "2026-02-26T06:14:07.666Z",
+    "updatedAt": "2026-02-26T06:14:07.666Z",
+    "__v": 0
+  }
+]

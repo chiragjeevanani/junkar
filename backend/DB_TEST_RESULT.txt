@@ -1,0 +1,4 @@
+Connected to DB
+Scrapper: {"id":"69d2679f5ff997ca1b6530dc","phone":"9000000000","type":"feri_wala","dealCategories":[],"loc":{"type":"Point","coordinates":[0,0],"updatedAt":null}}
+User: 69d267525ff997ca1b65309c
+Orders: [{"id":"69d268655ff997ca1b653351","assignment":"unassigned","qType":"small","cats":["plastic"],"loc":{"type":"Point","coordinates":[75.8079539492944,22.634423494226894]}}]

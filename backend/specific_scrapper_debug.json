@@ -1,0 +1,115 @@
+[
+  {
+    "_id": "69c64c883b2b62790aac120d",
+    "phone": "9827223585",
+    "name": "sagar",
+    "email": "sagar@gmail.com",
+    "profilePic": null,
+    "services": [
+      "scrap_pickup"
+    ],
+    "scrapperType": "feri_wala",
+    "dealCategories": [],
+    "vehicleInfo": {
+      "type": "bike",
+      "number": "NA",
+      "capacity": 0,
+      "photoUrl": null
+    },
+    "kyc": {
+      "aadhaarNumber": "437467384714",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1774603459/scrapto/kyc/aadhaar/file_dklq9s.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1774603461/scrapto/kyc/selfie/file_scbrkb.jpg",
+      "panNumber": "ABCDE1234F",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1774603460/scrapto/kyc/pan/file_wxsugt.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1774603459/scrapto/kyc/shopLicense/file_zwtpey.jpg",
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "verified",
+      "submittedAt": "2026-03-27T09:24:26.202Z",
+      "verifiedAt": "2026-03-27T09:27:15.840Z",
+      "rejectionReason": null,
+      "resendReason": null,
+      "verifiedBy": "69bce83f1d5f7957d6fa7dac"
+    },
+    "subscription": {
+      "status": "active",
+      "planId": "69be3e4cde3cb4a27c82c2b9",
+      "startDate": "2026-03-27T09:23:21.268Z",
+      "expiryDate": "2026-04-26T09:23:21.268Z",
+      "razorpaySubscriptionId": null,
+      "razorpayPaymentId": null,
+      "autoRenew": false,
+      "cancelledAt": null,
+      "cancellationReason": null
+    },
+    "marketSubscription": {
+      "status": "expired",
+      "planId": null,
+      "startDate": null,
+      "expiryDate": null,
+      "razorpaySubscriptionId": null,
+      "razorpayPaymentId": null,
+      "autoRenew": true,
+      "cancelledAt": null,
+      "cancellationReason": null
+    },
+    "liveLocation": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ],
+      "updatedAt": null
+    },
+    "businessLocation": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ],
+      "address": "",
+      "city": "",
+      "state": ""
+    },
+    "isOnline": false,
+    "rating": {
+      "breakdown": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average": 0,
+      "count": 0,
+      "lastUpdated": null
+    },
+    "badges": [],
+    "totalPickups": 0,
+    "earnings": {
+      "total": 0,
+      "pending": 0,
+      "withdrawn": 0
+    },
+    "wallet": {
+      "balance": 0,
+      "currency": "INR",
+      "status": "ACTIVE"
+    },
+    "referredBy": null,
+    "status": "active",
+    "isPhoneVerified": false,
+    "fcmTokens": [
+      "fc967acPkVVO0hEq6x6yJC:APA91bE5kTmEOrjBhh-EbJWrNsYPK3_PQmQsD5Ck9dkIEnZWCGUNOmHlxezZnF1aU3QgSdSHSRCuynLkphqxs4LC6cDbs-WutbrgPf1dtWmilC1MMeMXkrY",
+      "cp_EMY0M8aNt9isswIhGV9:APA91bFb4rLPEgXv_N98bjSGYqKd1FoUfAfpbl4WnaNm-grEdBJ7xwtvcHx33mXd8ArgFA0ZVDg7RLy-fbqfLsPhtk7-oPAy53kaFgB9p2sq7F7zid14AX0"
+    ],
+    "fcmTokenMobile": [],
+    "availableSlots": [],
+    "createdAt": "2026-03-27T09:23:21.034Z",
+    "updatedAt": "2026-03-27T10:44:35.773Z",
+    "__v": 2
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "sagar",
+    "phone": "9999900002",
+    "kyc": {
+      "aadhaarPhotoUrl": null,
+      "selfieUrl": null,
+      "licenseUrl": null,
+      "panPhotoUrl": null,
+      "shopLicenseUrl": null,
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "verifiedBy": null,
+      "rejectionReason": null
+    }
+  },
+  {
+    "name": "nitesh",
+    "phone": "9000000004",
+    "kyc": {
+      "aadhaarNumber": "234567890987",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504502/scrapto/kyc/aadhaar/file_e0fll4.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504505/scrapto/kyc/selfie/file_tlfijn.jpg",
+      "panNumber": "ABCDE1234E",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504507/scrapto/kyc/pan/file_zlrskl.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504509/scrapto/kyc/shopLicense/file_v4hpvr.jpg",
+      "shopPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772504511/scrapto/kyc/shopPhoto/file_rcpjwe.jpg",
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "verified",
+      "verifiedAt": "2026-03-03T02:26:09.669Z",
+      "rejectionReason": null,
+      "verifiedBy": "6992c79967e45f1f2e78fa6a"
+    }
+  },
+  {
+    "name": "deepesh",
+    "phone": "9000000005",
+    "kyc": {
+      "aadhaarNumber": "123243534546",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505473/scrapto/kyc/aadhaar/file_lzvhi4.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505475/scrapto/kyc/selfie/file_baberj.jpg",
+      "panNumber": "ABCDE1234E",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505476/scrapto/kyc/pan/file_q7pvjy.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505478/scrapto/kyc/shopLicense/file_zggjap.jpg",
+      "shopPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772505479/scrapto/kyc/shopPhoto/file_aapm1e.jpg",
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "verified",
+      "verifiedAt": "2026-03-03T02:38:45.203Z",
+      "rejectionReason": null,
+      "verifiedBy": "6992c79967e45f1f2e78fa6a"
+    }
+  },
+  {
+    "name": "yash",
+    "phone": "9111111111",
+    "kyc": {
+      "aadhaarNumber": "213242343546",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521939/scrapto/kyc/aadhaar/file_hbnnrp.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521942/scrapto/kyc/selfie/file_gzbdbt.jpg",
+      "panNumber": "ABCDE1234F",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521946/scrapto/kyc/pan/file_fpbuci.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521950/scrapto/kyc/shopLicense/file_vvzpb4.jpg",
+      "shopPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772521954/scrapto/kyc/shopPhoto/file_b0yubo.jpg",
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "verified",
+      "verifiedAt": "2026-03-03T07:14:02.367Z",
+      "rejectionReason": null,
+      "verifiedBy": "6992c79967e45f1f2e78fa6a"
+    }
+  },
+  {
+    "name": "Ankit",
+    "phone": "9755620416",
+    "kyc": {
+      "aadhaarPhotoUrl": null,
+      "selfieUrl": null,
+      "licenseUrl": null,
+      "panPhotoUrl": null,
+      "shopLicenseUrl": null,
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "verifiedBy": null,
+      "rejectionReason": null
+    }
+  },
+  {
+    "name": "Ankit Kumar",
+    "phone": "9755620716",
+    "kyc": {
+      "aadhaarPhotoUrl": null,
+      "selfieUrl": null,
+      "licenseUrl": null,
+      "panPhotoUrl": null,
+      "shopLicenseUrl": null,
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "verifiedBy": null,
+      "rejectionReason": null
+    }
+  },
+  {
+    "name": "3578",
+    "phone": "9179160169",
+    "kyc": {
+      "aadhaarPhotoUrl": null,
+      "selfieUrl": null,
+      "licenseUrl": null,
+      "panPhotoUrl": null,
+      "shopLicenseUrl": null,
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "verifiedBy": null,
+      "rejectionReason": null
+    }
+  },
+  {
+    "name": "Ram",
+    "phone": "9109599487",
+    "kyc": {
+      "aadhaarNumber": "234677654356",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126356/scrapto/kyc/aadhaar/file_ecobsy.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126358/scrapto/kyc/selfie/file_hnwgfq.jpg",
+      "panNumber": "SDGGGYYJJI",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126361/scrapto/kyc/pan/file_wuerig.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126364/scrapto/kyc/shopLicense/file_rfpv4l.jpg",
+      "shopPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1773126366/scrapto/kyc/shopPhoto/file_r3aaqm.jpg",
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "verified",
+      "verifiedAt": "2026-03-10T08:37:16.237Z",
+      "rejectionReason": null,
+      "verifiedBy": "6992c79967e45f1f2e78fa6a"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "binod",
+    "phone": "6666666666",
+    "scrapperType": "big",
+    "kyc": {
+      "aadhaarNumber": "123123243433",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771765309/scrapto/kyc/aadhaar/file_bjrl9w.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771765310/scrapto/kyc/selfie/file_g0gsju.jpg",
+      "panNumber": "ABCDE1234F",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771765311/scrapto/kyc/pan/file_cjxvhz.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771765314/scrapto/kyc/shopLicense/file_itb1ph.jpg",
+      "status": "pending",
+      "verifiedAt": null,
+      "rejectionReason": null
+    }
+  },
+  {
+    "name": "abhi",
+    "phone": "9000000002",
+    "scrapperType": "wholesaler",
+    "kyc": {
+      "aadhaarNumber": "123243234324",
+      "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772087774/scrapto/kyc/aadhaar/file_dli2cl.jpg",
+      "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772087775/scrapto/kyc/selfie/file_mqyocw.jpg",
+      "panNumber": "ABCDE1234F",
+      "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772087776/scrapto/kyc/pan/file_mb0x2b.jpg",
+      "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1772087780/scrapto/kyc/shopLicense/file_jselwv.jpg",
+      "shopPhotoUrl": null,
+      "gstNumber": null,
+      "gstCertificateUrl": null,
+      "udyamAadhaarNumber": null,
+      "status": "pending",
+      "verifiedAt": null,
+      "rejectionReason": null
+    }
+  }
+]

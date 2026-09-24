@@ -1,0 +1,34 @@
+import express from 'express';
+import { protect, isScrapper } from '../middleware/auth.js';
+import {
+    getWalletProfile,
+    getWalletTransactions,
+    createRechargeOrder,
+    verifyRecharge,
+    payOrderViaWallet,
+    requestWithdrawal
+} from '../controllers/walletController.js';
+
+const router = express.Router();
+
+router.get('/profile', protect, getWalletProfile);
+router.get('/transactions', protect, getWalletTransactions);
+
+// Recharge
+router.post('/recharge/create', protect, createRechargeOrder);
+router.post('/recharge/verify', protect, verifyRecharge);
+
+// Payments
+router.post('/pay-order', protect, payOrderViaWallet);
+
+// Withdrawals
+// Withdrawals
+router.post('/withdraw', protect, requestWithdrawal);
+
+// Coupons
+// Coupons
+import { applyCoupon, getAvailableCoupons } from '../controllers/walletController.js';
+router.post('/apply-coupon', protect, applyCoupon);
+router.get('/coupons', protect, getAvailableCoupons);
+
+export default router;

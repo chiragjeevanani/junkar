@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+/* Custom utilities */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth scrolling - handled by Lenis */
+html {
+  scroll-behavior: auto;
+  /* Let Lenis handle smooth scrolling */
+}
+
+/* Global styles - prevent blur and color override */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #7dd3fc, #e0f2fe) fixed;
+  color: #2d3748;
+  /* Prevent zoom on mobile - allow panning but prevent pinch zoom */
+  touch-action: pan-x pan-y;
+  -ms-touch-action: pan-x pan-y;
+}
+
+
+
+/* Ensure proper color rendering */
+img,
+svg {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Ensure bottom nav stays at viewport bottom */
+@media (max-width: 767px) {
+
+  /* Ensure navbar is fixed to viewport, not page */
+  body {
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  /* Allow vertical scrolling on mobile */
+  html,
+  body {
+    min-height: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  /* Ensure fixed elements stay in viewport */
+  [style*="position: fixed"] {
+    position: fixed !important;
+  }
+}
+
+/* React Calendar Customization */
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  background: white !important;
+  font-family: inherit !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+  padding: 1rem !important;
+}
+
+.react-calendar__tile {
+  padding: 1rem 0.5rem !important;
+  border-radius: 0.5rem !important;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #f0f9ff !important;
+  /* sky-50 */
+  color: #0284c7 !important;
+  /* sky-600 */
+}
+
+.react-calendar__tile--now {
+  background: #e0f2fe !important;
+  /* sky-100 */
+  color: #0369a1 !important;
+  /* sky-700 */
+}
+
+.react-calendar__tile--active {
+  background: #0284c7 !important;
+  /* sky-600 */
+  color: white !important;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #0369a1 !important;
+  /* sky-700 */
+}
+
+.react-calendar__navigation button {
+  color: #075985 !important;
+  /* sky-800 */
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #f0f9ff !important;
+}
+
+/* React Time Picker Customization */
+.react-time-picker {
+  width: 100% !important;
+}
+
+.react-time-picker__wrapper {
+  border: 2px solid #e5e7eb !important;
+  border-radius: 0.75rem !important;
+  padding: 0.5rem !important;
+  background: white !important;
+  transition: all 0.2s !important;
+}
+
+.react-time-picker__wrapper:focus-within {
+  border-color: #0284c7 !important;
+  box-shadow: 0 0 0 2px #e0f2fe !important;
+}
+
+.react-time-picker__inputGroup__input {
+  font-weight: 600 !important;
+  color: #374151 !important;
+}
+
+.react-clock {
+  background-color: white !important;
+  border-radius: 50% !important;
+  border: 4px solid #0284c7 !important;
+}
+
+.react-clock__face {
+  background-color: white !important;
+}
+
+.react-clock__hand__body {
+  background-color: #0284c7 !important;
+}
+
+.react-clock__mark__body {
+  background-color: #d1d5db !important;
+}
+
+/* Google Places Autocomplete Dark Theme Customization */
+.pac-container {
+  background-color: #18181b !important; /* matches zinc-900 */
+  border: 1px solid #3f3f46 !important; /* matches zinc-700 */
+  border-radius: 0.75rem !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+  margin-top: 5px;
+  font-family: inherit !important;
+  z-index: 99999 !important; /* High z-index to stay above modals */
+}
+
+.pac-item {
+  color: #a1a1aa !important; /* matches zinc-400 */
+  border-top: 1px solid #27272a !important; /* single separator line */
+  padding: 10px 16px !important;
+  cursor: pointer;
+  font-size: 14px !important;
+  transition: background-color 0.2s;
+}
+
+.pac-item:first-child {
+  border-top: none !important;
+}
+
+.pac-item:hover, .pac-item.pac-item-selected {
+  background-color: #27272a !important; /* matched zinc-800 on hover */
+}
+
+.pac-item-query {
+  color: #f4f4f5 !important; /* matches zinc-100 (white-ish) */
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  padding-right: 4px;
+}
+
+/* Make icons visible in dark mode by inverting their colors */
+.pac-icon {
+  filter: invert(1) opacity(0.7) !important;
+}
+
+/* The 'powered by Google' watermark inverting for dark background */
+.pac-logo::after {
+  filter: invert(1) opacity(0.6) !important;
+}

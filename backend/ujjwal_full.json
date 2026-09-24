@@ -1,0 +1,102 @@
+{
+  "_id": "699b05cac8e5b7c3157d6372",
+  "phone": "9876543210",
+  "name": "ujjwal",
+  "email": "ujjwal@gmail.com",
+  "profilePic": null,
+  "services": [
+    "scrap_pickup"
+  ],
+  "scrapperType": "big",
+  "vehicleInfo": {
+    "type": "bike",
+    "number": "NA",
+    "capacity": 0
+  },
+  "kyc": {
+    "aadhaarNumber": "123123123213",
+    "aadhaarPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771767321/scrapto/kyc/aadhaar/file_vlb2d6.jpg",
+    "selfieUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771767323/scrapto/kyc/selfie/file_jacb73.jpg",
+    "panNumber": "ABCDE1234F",
+    "panPhotoUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771767324/scrapto/kyc/pan/file_swczwo.jpg",
+    "shopLicenseUrl": "https://res.cloudinary.com/dk8peecsb/image/upload/v1771767325/scrapto/kyc/shopLicense/file_ozpgnb.jpg",
+    "status": "verified",
+    "verifiedAt": "2026-02-22T13:36:45.408Z",
+    "rejectionReason": null,
+    "verifiedBy": "6992c79967e45f1f2e78fa6a"
+  },
+  "subscription": {
+    "status": "active",
+    "planId": "698ef7575a1de90e557e3a69",
+    "startDate": "2026-02-22T13:38:14.086Z",
+    "expiryDate": "2028-08-10T13:38:14.086Z",
+    "razorpaySubscriptionId": "order_SJD75K0HGRVO9v",
+    "razorpayPaymentId": "pay_SJD7DPsIa8r1Jz",
+    "autoRenew": true,
+    "cancelledAt": null,
+    "cancellationReason": null
+  },
+  "marketSubscription": {
+    "status": "expired",
+    "planId": null,
+    "startDate": null,
+    "expiryDate": null,
+    "razorpaySubscriptionId": null,
+    "razorpayPaymentId": null,
+    "autoRenew": true,
+    "cancelledAt": null,
+    "cancellationReason": null
+  },
+  "liveLocation": {
+    "type": "Point",
+    "coordinates": [
+      0,
+      0
+    ],
+    "updatedAt": null
+  },
+  "businessLocation": {
+    "type": "Point",
+    "coordinates": [
+      75.86830739999999,
+      22.7169967
+    ],
+    "address": "PV89+Q8V, Chhoti Gwaltoli, Indore, Madhya Pradesh 452001, India"
+  },
+  "isOnline": true,
+  "rating": {
+    "breakdown": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "average": 0,
+    "count": 0,
+    "lastUpdated": null
+  },
+  "totalPickups": 0,
+  "earnings": {
+    "total": 0,
+    "pending": 0,
+    "withdrawn": 0
+  },
+  "wallet": {
+    "balance": 0,
+    "currency": "INR",
+    "status": "ACTIVE"
+  },
+  "referredBy": null,
+  "status": "active",
+  "isPhoneVerified": false,
+  "fcmTokens": [
+    "d_IdtxipGYQp0Q9jAfc_W0:APA91bHBEv8EXkHrKrCNJOQDEfvCIvXT-G97qY96d5eQbPsMc2_I7nLVa3zKO66dTsqZpkav6-WcLCSkxVzWRXzeO2Yo4T3_FejZBAPvm324_x92v3bC5yk",
+    "d_IdtxipGYQp0Q9jAfc_W0:APA91bFKPnTjj-kfZgOs-XrbKWtusd2GMINOhPEoMNKV1IdlHiM3v6a7S8PTwKMiJcIZMFg8Rq_lJZjKpIf71xMdOCFq1Fkw8BlfotqTR8n1S7yzchLIIhA"
+  ],
+  "fcmTokenMobile": [],
+  "availableSlots": [],
+  "createdAt": "2026-02-22T13:34:02.503Z",
+  "updatedAt": "2026-02-22T13:47:13.960Z",
+  "__v": 2
+}

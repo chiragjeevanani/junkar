@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "6992c31c5387a9bcb3e35ae2",
+    "phone": "7777777777",
+    "name": "Abhishek Bhati",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "6992cb58ec8c5489e765f135",
+    "phone": "8888888888",
+    "name": "chandan",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "699afdc4c221f9b75fbe31e6",
+    "phone": "6666666666",
+    "name": "binod",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "699b05cac8e5b7c3157d6372",
+    "phone": "9876543210",
+    "name": "ujjwal",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "699f1b25d14743ca68026074",
+    "phone": "6268455382",
+    "name": "Abhi bhati",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "699fd72215d4ec868724dc9b",
+    "phone": "9000000001",
+    "name": "mayur",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "699fe4af18d5446840e61cc2",
+    "phone": "9999900002",
+    "name": "sagar",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "699fe95218d5446840e62442",
+    "phone": "9000000002",
+    "name": "abhi",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "69a581d52612549633a4b359",
+    "phone": "9000000003",
+    "name": "chandan",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69a643a2a412c0e70db38b1a",
+    "phone": "9000000004",
+    "name": "nitesh",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69a64944640e877a709918ed",
+    "phone": "9000000005",
+    "name": "deepesh",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69a68983fa7d5228858b28ef",
+    "phone": "9111111111",
+    "name": "yash",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69a6d1e666d89e1a2c567dd8",
+    "phone": "9000000006",
+    "name": "sheel",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69aa766a259e5aa35da09b79",
+    "phone": "9755620416",
+    "name": "Ankit",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "69aa770e259e5aa35da09d69",
+    "phone": "9755620716",
+    "name": "Ankit Kumar",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "69aa9bd8e100df768b36ec2b",
+    "phone": "9000000009",
+    "name": "samay",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69afbec5b783387e4dd6d4b7",
+    "phone": "9179160169",
+    "name": "3578",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "69afc03bb783387e4dd6d4c8",
+    "phone": "9109599487",
+    "name": "Ram",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69afda52b783387e4dd6da1d",
+    "phone": "7047716600",
+    "name": "Shyam",
+    "kyc": {
+      "status": "verified"
+    }
+  },
+  {
+    "_id": "69b403489f1f02cf2e7e8914",
+    "phone": "7000000000",
+    "name": "Default Scrapper",
+    "kyc": {
+      "status": "pending"
+    }
+  },
+  {
+    "_id": "69b4129de72695b01cc2a49f",
+    "phone": "9000000000",
+    "name": "Scrapper 9000000000",
+    "kyc": {
+      "status": "pending"
+    }
+  }
+]
