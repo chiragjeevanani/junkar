@@ -40,11 +40,25 @@ export async function showBrowserNotification(title, options = {}) {
     }
 }
 
+// Service workers can't read import.meta.env, so pass the Firebase config as query params
+function getServiceWorkerUrl() {
+    const params = new URLSearchParams({
+        apiKey: import.meta.env.VITE_FIREBASE_API_KEY || '',
+        authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || '',
+        projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || '',
+        storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || '',
+        messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '',
+        appId: import.meta.env.VITE_FIREBASE_APP_ID || '',
+        measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || ''
+    });
+    return `/firebase-messaging-sw.js?${params.toString()}`;
+}
+
 // Register service worker
 async function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         try {
-            const registration = await navigator.serviceWorker.register('/firebase-messaging-sw.js');
+            const registration = await navigator.serviceWorker.register(getServiceWorkerUrl());
             console.log('Service Worker registered:', registration);
             return registration;
         } catch (error) {
@@ -179,8 +193,8 @@ export async function initializePushNotifications() {
             return;
         }
 
-        await navigator.serviceWorker.register('/firebase-messaging-sw.js');
-        
+        await registerServiceWorker();
+
         // Token will be registered on login or if already logged in
         const token = localStorage.getItem('token');
         if (token) {

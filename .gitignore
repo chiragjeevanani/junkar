@@ -6,6 +6,3 @@ temp_interactive_push.bat
 .env
 .env.*
 !.env.example
-
-# Service Worker
-frontend/public/firebase-messaging-sw.js
